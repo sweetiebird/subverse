@@ -3,17 +3,34 @@
   "version": "0.0.0",
   "description": "",
   "main": "index.js",
+  "module": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sweetiebird/subverse.git"
-  },
+  "repository": "git+https://github.com/sweetiebird/subverse.git",
   "author": "Shawn Presser (https://github.com/shawwn)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/sweetiebird/subverse/issues"
   },
-  "homepage": "https://github.com/sweetiebird/subverse#readme"
+  "homepage": "https://github.com/sweetiebird/subverse#readme",
+  "private": false,
+  "dependencies": {
+    "esm": "^3.0.34"
+  },
+  "subverse": {
+    "before-create": [],
+    "created": [],
+    "before-mount": [],
+    "mounted": ["set", "@title", "Redirecting to sweetiebird..."],
+    "before-update": [],
+    "updated": [],
+    "activated": ["do",
+      ["wait", 5],
+      ["redirect", "https://sweetiebird.io"]
+    ],
+    "deactivated": [],
+    "before-destroy": [],
+    "destroyed": []
+  }
 }
