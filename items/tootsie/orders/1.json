@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "code": 200,
+    "quantity": 13
+  },
+  "data": {
+    "-LCSeiR42ro7D-xj0510": {
+      "payment": {
+        "cart": "4S6079611Y3963213",
+        "create_time": "2018-05-14T08:01:10Z",
+        "id": "PAY-2BA086335S8728920LL4UECA",
+        "intent": "sale",
+        "payer": {
+          "payer_info": {
+            "country_code": "US",
+            "email": "shawnpresser@gmail.com",
+            "first_name": "Shawn",
+            "last_name": "Presser",
+            "middle_name": "Shawn",
+            "payer_id": "FRXJT7HHG2FS8",
+            "shipping_address": {
+              "city": "Chicago",
+              "country_code": "US",
+              "line1": "1538 N Halsted",
+              "line2": "Apt 2",
+              "postal_code": "60642",
+              "recipient_name": "Shawn Presser",
+              "state": "IL"
+            }
+          },
+          "payment_method": "paypal",
+          "status": "UNVERIFIED"
+        },
+        "state": "approved",
+        "transactions": [{
+          "amount": {
+            "currency": "USD",
+            "total": "0.01"
+          },
+          "related_resources": [{
+            "sale": {
+              "amount": {
+                "currency": "USD",
+                "details": {
+                  "subtotal": "0.01"
+                },
+                "total": "0.01"
+              },
+              "create_time": "2018-05-14T08:01:09Z",
+              "id": "80G80154JF226213S",
+              "parent_payment": "PAY-2BA086335S8728920LL4UECA",
+              "payment_mode": "INSTANT_TRANSFER",
+              "protection_eligibility": "ELIGIBLE",
+              "state": "completed",
+              "update_time": "2018-05-14T08:01:09Z"
+            }
+          }]
+        }]
+      },
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "product",
+  "quantity": "100",
+  "price": "$0.01 USD",
+  "title": "Tootsie roll",
+  "description": "A delicious tootsie roll.",
+  "screenshots": ["https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Tootsie-Roll-WU.jpg/1200px-Tootsie-Roll-WU.jpg",
+    "https://www.oldtimecandy.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/t/o/tootsie_roll_1.jpg",
+    "https://www.oldtimecandy.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/t/o/tootsie_rolls_medium.jpg"
+  ]
+}
