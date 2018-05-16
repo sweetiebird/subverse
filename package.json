@@ -1,0 +1,19 @@
+{
+  "name": "@sweetiebird/subverse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sweetiebird/subverse.git"
+  },
+  "author": "Shawn Presser (https://github.com/shawwn)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sweetiebird/subverse/issues"
+  },
+  "homepage": "https://github.com/sweetiebird/subverse#readme"
+}
