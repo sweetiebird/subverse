@@ -1,6 +1,6 @@
 {
   "name": "@sweetiebird/subverse",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "module": "main.js",
@@ -22,12 +22,23 @@
     "before-create": [],
     "created": [],
     "before-mount": [],
-    "mounted": ["set", "@title", "Redirecting to sweetiebird..."],
+    "mounted": [
+      "set",
+      "@title",
+      "Redirecting to sweetiebird..."
+    ],
     "before-update": [],
     "updated": [],
-    "activated": ["do",
-      ["wait", 5],
-      ["redirect", "https://sweetiebird.io"]
+    "activated": [
+      "do",
+      [
+        "wait",
+        5
+      ],
+      [
+        "redirect",
+        "https://sweetiebird.io"
+      ]
     ],
     "deactivated": [],
     "before-destroy": [],
