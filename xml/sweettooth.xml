@@ -1,0 +1,22 @@
+<Bundle
+  name="Bundle_SweetTooth"
+  title="${Bundle_SweetTooth_title}"
+  description="${Bundle_SweetTooth_description}"
+  >
+
+  <Screenshot src="https://i.imgur.com/LZdD3C0.png" />
+  <Screenshot src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Candy_in_Damascus.jpg/1200px-Candy_in_Damascus.jpg" />
+
+  <Video src="https://www.youtube.com/watch?v=0gUS_AFxV-w" />
+
+  <BundleItem
+    name="Bundle_SweetTooth_item0"
+    product="Product_TootsieRoll"
+    count=20
+    title="${SweetTooth_item0_title}"
+    >
+    <Screenshot src="https://images-na.ssl-images-amazon.com/images/I/91IxMSRPqYL._SY450_.jpg" />
+  </BundleItem>
+</Bundle>
+
+

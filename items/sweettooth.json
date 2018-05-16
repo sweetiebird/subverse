@@ -2,7 +2,6 @@
   "type": "bundle",
   "title": "Sweet Tooth Bundle",
   "description": "A variety of tasty treats.",
-  "for": "sweetietooth",
   "screenshots": [
     "https://i.imgur.com/LZdD3C0.png",
     "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Candy_in_Damascus.jpg/1200px-Candy_in_Damascus.jpg"
@@ -10,7 +9,12 @@
   "videos": [
     "https://www.youtube.com/watch?v=0gUS_AFxV-w"
   ],
-  "offerings": [
-    {"name": "tootsie", "count": 20}
+  "bundle": [
+    {
+      "product": "s/sweetiebird/tootsie",
+      "title": "Bag of tootsie rolls",
+      "screenshots": ["https://images-na.ssl-images-amazon.com/images/I/91IxMSRPqYL._SY450_.jpg"],
+      "count": 20
+    }
   ]
 }

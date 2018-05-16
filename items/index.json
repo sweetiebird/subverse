@@ -1,6 +1,7 @@
 {
   "type": "page",
-  "sections": [
-    "s/sweetiebird/sweettooth"
+  "page": [
+    {"bundle":  "s/sweetiebird/sweettooth"},
+    {"product": "s/sweetiebird/tootsie"}
   ]
 }

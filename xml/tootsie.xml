@@ -1,0 +1,16 @@
+<Product
+  name="Product_TootsieRoll"
+  title="${Product_TootsieRoll_title}"
+  description="${Product_TootsieRoll_description}"
+  stock="1000"
+  price="unavailable"
+  >
+  <Screenshot src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Tootsie-Roll-WU.jpg/1200px-Tootsie-Roll-WU.jpg" />
+  <Screenshot src="https://www.oldtimecandy.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/t/o/tootsie_roll_1.jpg" />
+  <Screenshot src="https://www.oldtimecandy.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/t/o/tootsie_rolls_medium.jpg" />
+
+  <Modifier key="Currency_USD" price="0.01" />
+  <Modifier key="Currency_CAD" price="0.01" />
+  <Modifier key="Currency_EUR" price="0.02" />
+  <Modifier key="Currency_MXN" price="0.20" />
+</Product>

@@ -1,0 +1,10 @@
+<Store
+  name="Store_Sweetiebird"
+  title="${Store_Sweetiebird_title}"
+  >
+  <StoreTitle />
+  <StoreMenu />
+  <BundlePreview name="Bundle_SweetTooth" />
+  <ProductPreview name="Product_TootsieRoll" />
+</Store>
+    

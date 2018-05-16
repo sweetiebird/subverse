@@ -1,0 +1,29 @@
+["product",
+    {
+        "quantity": "100",
+        "price": "unavailable",
+        "title": "${tootsie_title}",
+        "description": "${tootsie_description}"
+    },
+    ["modifier", {
+        "key": "currency_USD",
+        "price": "0.01"
+    }],
+    ["modifier", {
+        "key": "currency_CAD",
+        "price": "0.01"
+    }],
+    ["modifier", {
+        "key": "currency_MXN",
+        "price": "0.20"
+    }],
+    ["screenshot", {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Tootsie-Roll-WU.jpg/1200px-Tootsie-Roll-WU.jpg"
+    }],
+    ["screenshot", {
+        "src": "https://www.oldtimecandy.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/t/o/tootsie_roll_1.jpg"
+    }],
+    ["screenshot", {
+        "src": "https://www.oldtimecandy.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/t/o/tootsie_rolls_medium.jpg"
+    }]
+]
