@@ -1,47 +1,17 @@
 {
   "name": "@sweetiebird/subverse",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "",
-  "main": "index.js",
-  "module": "main.js",
+  "main": "items/index.json",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "git+https://github.com/sweetiebird/subverse.git",
-  "author": "Shawn Presser (https://github.com/shawwn)",
+  "repository": "https://github.com/sweetiebird/subverse",
+  "author": "Emily Kolar (https://github.com/sheminusminus)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/sweetiebird/subverse/issues"
   },
   "homepage": "https://github.com/sweetiebird/subverse#readme",
-  "private": false,
-  "dependencies": {
-    "esm": "^3.0.34"
-  },
-  "subverse": {
-    "before-create": [],
-    "created": [],
-    "before-mount": [],
-    "mounted": [
-      "set",
-      "@title",
-      "Redirecting to sweetiebird..."
-    ],
-    "before-update": [],
-    "updated": [],
-    "activated": [
-      "do",
-      [
-        "wait",
-        5
-      ],
-      [
-        "redirect",
-        "https://sweetiebird.io"
-      ]
-    ],
-    "deactivated": [],
-    "before-destroy": [],
-    "destroyed": []
-  }
+  "private": false
 }
